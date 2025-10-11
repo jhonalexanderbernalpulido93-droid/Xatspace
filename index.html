@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wakko · XS</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div id="container" class="container">
+  <div id="tabs" class="tabs-container">
+
+    <div class="tabs">
+      <!-- añadir href="#" y marcar la primera como active -->
+      <a href="#" id="tab1" data-tab="1" class="tab active">Fondos</a>
+      <a href="#" id="tab2" data-tab="2" class="tab">Externos</a>
+      <a href="#" id="tab3" data-tab="3" class="tab">PstyleGif</a>
+      <a href="#" id="tab4" data-tab="4" class="tab">Banners</a>
+    </div>
+
+    <div class="content">
+      <!-- TAB 1 -->
+      <div id="tabcontent1" data-tab="1" class="tabcontent active">
+        <div class="gallery">
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Fondo 1"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Fondo 2"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Fondo 3"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Fondo 4"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Fondo 5"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Fondo 6"></div>
+        </div>
+      </div>
+
+      <!-- TAB 2 -->
+      <div id="tabcontent2" data-tab="2" class="tabcontent">
+        <div class="gallery">
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Externo 1"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Externo 2"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Externo 3"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Externo 4"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Externo 5"></div>
+          <div class="image-box"><img src="https://xatimg.com/image/TSGK6H5zp9GI.png" alt="Externo 6"></div>
+        </div>
+      </div>
+
+      <!-- TAB 3 -->
+      <div id="tabcontent3" data-tab="3" class="tabcontent">
+        <div class="gallery">
+          <div class="image-box-pstyle"><img src="https://xatimg.com/image/i0LNVIGxAO3e.gif" alt="Gif 1"></div>
+          <div class="image-box-pstyle"><img src="https://xatimg.com/image/i0LNVIGxAO3e.gif" alt="Gif 2"></div>
+          <div class="image-box-pstyle"><img src="https://xatimg.com/image/i0LNVIGxAO3e.gif" alt="Gif 3"></div>
+          <div class="image-box-pstyle"><img src="https://xatimg.com/image/i0LNVIGxAO3e.gif" alt="Gif 4"></div>
+        </div>
+      </div>
+
+      <!-- TAB 4 -->
+      <div id="tabcontent4" data-tab="4" class="tabcontent">
+        <div class="gallery">
+          <div class="image-box-pstyle"><img src="https://xatimg.com/image/i0LNVIGxAO3e.gif" alt="Gif 1"></div>
+          <div class="image-box-pstyle"><img src="https://xatimg.com/image/i0LNVIGxAO3e.gif" alt="Gif 2"></div>
+          <div class="image-box-pstyle"><img src="https://xatimg.com/image/i0LNVIGxAO3e.gif" alt="Gif 3"></div>
+          <div class="image-box-pstyle"><img src="https://xatimg.com/image/i0LNVIGxAO3e.gif" alt="Gif 4"></div>
+        </div>
+      </div>
+
+    </div> <!-- .content -->
+
+  </div> <!-- .tabs-container -->
+
+  <!-- dark-mode switch (igual que antes) -->
+  <div class="dark-mode-switch">
+    <label class="switch-label" for="dark-mode-switch">Dark mode</label>
+    <label class="switch">
+      <input type="checkbox" id="dark-mode-switch">
+      <span class="slider round"></span>
+    </label>
+  </div>
+
+</div> <!-- .container -->
+
+<script src="./script.js"></script>
+</body>
+</html>
